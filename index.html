@@ -10,14 +10,39 @@
 </head>
 
 <body>
-    <form action="https://formsubmit.co/maxoperchik@gmail.com" method="POST">
-    <input type="hidden" name="_subject" value="Consulta">
-    <input type="hidden" name="_next" value="https://maxiperchik.github.io/formsubmit.co/thanks.html">
-    <input type="text" name="name" placeholder="name" required>
-    <input type="email" name="email" placeholder="Email Address" required>
-    <textarea name="consulta" cols="30" rows="10" style="resize: none;"></textarea>
-    <button type="submit" class="btn btn-black">Send</button>
-    </form>
+    <div class="container">
+        <form action="https://formsubmit.co/maxoperchik@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Consulta">
+            <input type="hidden" name="_next" value="https://maxiperchik.github.io/formsubmit.co/thanks.html">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit" style="margin-top: 10px;">
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
