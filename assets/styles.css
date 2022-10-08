@@ -1,8 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.center{
-    display: block;
+body {
+    background: #ededed;
+}
+
+form {
+    width: 700px;
+    margin: 100px auto;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 12px;
+}
+
+input,
+textarea {
+    margin: 12px;
+    padding: 8px;
+    width: 660px;
+}
+
+.btn {
+    text-shadow: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .5s ease-in-out, background-color .20s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    max-width: 170px;
+    margin-bottom: 10px;
+}
+
+.btn-black {
+    background:  #444;
+    color: white;
+}
+
+.btn-black:hover {
+    opacity: .9;
+}
+
+.container{
+    width: 700px;
+    margin: 100px auto;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 12px;
 }
